@@ -1,3 +1,9 @@
 h1#title{
  color: #ff0000; 
 }
+
+.member{
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+}
