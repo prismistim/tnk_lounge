@@ -4,16 +4,18 @@
         <title></title>
         <meta charset="UTF-8">
         <link href="css/test.css" rel="stylesheet">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/test.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
     </head>
     <body>
         <h1 id="title">Hello HTML!</h1>
-            <ul>
-                <li>田中</li>
-                <li>村重</li>
-                <li>加藤</li>
-                <li id ="delete">松村</li>
-            </ul>
+        <div class="list-group">
+            <a class="list-group-item list-group-item-success" href="http://www.nukistream.com/video.php?id=700469">田中</a>
+            <a class="list-group-item list-group-item-info" href="https://www.youtube.com/channel/UC8f1sEDJ9INuWRoxCKouZrA">村重</a>
+            <a class="list-group-item list-group-item-warning" href="#">加藤</a>
+            <a class="list-group-item list-group-item-danger" id ="delete" href="#">松村</a>
+        </div>
     </body>
 </html>
