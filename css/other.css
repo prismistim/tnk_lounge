@@ -1,3 +1,11 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
 .gtco-section.gtco-products{
   padding-bottom: 0.2em;
+}
+
+.history h4{
+  font-family: 'Noto Sans Japanese', sans-serif;
+  font-size: 100%;
+  font-weight: 800;
 }
